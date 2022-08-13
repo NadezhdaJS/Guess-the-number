@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	@@include('html/head.html',{
-	"title":"Главная"
-	})
-	<body>
-		@@include('html/header.html',{})
-		<main>
-		</main>
-		@@include('html/footer.html',{})
-		<script src="js/app.min.js"></script>
-	</body>
+@@include('html/head.html',{
+"title":"Главная"
+})
+
+<body>
+
+	<div class="app-guess-the-number">
+		<div class="container">
+			<div class="nav">
+				<button type="button" class="again">
+					Again
+				</button>
+				<div class="text">
+					from 1 to 20
+				</div>
+			</div>
+			<h1>
+				Guess <br>
+				the number!</h1>
+			<div class="mystic-number">
+				?
+			</div>
+			<input type="number" class="your-number">
+			<button type="button" class="check">
+				Check
+			</button>
+			<div class="text attempt">
+				Attempt: 0
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/app.min.js"></script>
+</body>
+
 </html>

@@ -1,5 +1,100 @@
-
 html {
   box-sizing: border-box;
 }
 
+.app-guess-the-number {
+  background: linear-gradient(
+    180deg,
+    #0040f4 0%,
+    #9799fa 37.1%,
+    #e7afc8 64.21%,
+    #fbd4b7 91.32%,
+    #fbd4b7 91.32%
+  );
+  border-radius: 50px;
+  width: 482px;
+  height: 906px;
+  margin: 5px auto;
+  font-family: "KoHo";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text {
+  display: flex;
+  align-content: center;
+}
+
+.container {
+  width: 380px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 34px;
+  height: 86px;
+  align-items: center;
+}
+
+.again {
+  display: flex;
+  align-items: center;
+  padding: 14.5px 30px;
+  gap: 10px;
+  background: linear-gradient(115.24deg, #6786fb 16.02%, #476cf8 83.98%);
+  box-shadow: 10px 10px 10px rgba(0, 64, 244, 0.49);
+  border-radius: 20px;
+  border: none;
+}
+
+h1 {
+  padding-top: 54px;
+  text-align: center;
+}
+
+.mystic-number {
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: 10px 20px 20px rgba(205, 147, 182, 0.52);
+  border-radius: 40px;
+  width: 259px;
+  height: 269px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 10px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.your-number {
+  background: linear-gradient(134.17deg, #eef1f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75),
+    inset 5px 5px 10px rgba(166, 180, 200, 0.75);
+  border-radius: 10px;
+  border: none;
+  width: 122px;
+  height: 81px;
+  display: flex;
+  margin: 42px auto;
+}
+
+.check {
+  margin-top: 42px;
+  margin: auto;
+  background: linear-gradient(115.24deg, #f6d3ba 16.02%, #fcdcb5 83.98%);
+  box-shadow: 10px 20px 20px #febf9c;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 141px;
+  gap: 10px;
+  border: 0;
+}
+
+.attempt {
+  margin-top: 36px;
+}
