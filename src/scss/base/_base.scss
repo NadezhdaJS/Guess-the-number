@@ -52,6 +52,7 @@ html {
   line-height: 30px;
   letter-spacing: 0.05em;
   max-height: 52px;
+  cursor: pointer;
 }
 
 h1 {
@@ -97,6 +98,10 @@ h1 {
   color: #dd5d8a;
 }
 
+.your-number:focus-visible {
+  outline: none;
+}
+
 .check {
   font-size: 38px;
   line-height: 49px;
@@ -115,6 +120,7 @@ h1 {
   font-weight: 700;
   max-height: 76px;
   max-width: 380px;
+  cursor: pointer;
 }
 
 .attempt {
