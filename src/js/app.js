@@ -55,8 +55,9 @@ document.querySelector(".check").addEventListener("click", function () {
   const yourNumber = Number(document.querySelector(".your-number").value);
   if (!yourNumber) {
     displayMessage("Not a number!");
-    changeColorH1("#F28CBD");
+    changeColorH1("#BC1A4B");
   } else if (yourNumber === mysticNumber) {
+    document.querySelector(".mystic-number").textContent = mysticNumber;
     displayMessage("you won!");
     changeColorH1("#fff");
     changeSizeH1("64px");
@@ -77,7 +78,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (yourNumber !== mysticNumber) {
     if (yourNumber >= 0) {
       changeAttempt(attemptNumber++);
-      changeColorH1("#F28CBD");
+      changeColorH1("#BC1A4B");
       changeMarginNumber("80px");
       changePaddingH1("80px");
       if (yourNumber > mysticNumber) {
@@ -87,11 +88,12 @@ document.querySelector(".check").addEventListener("click", function () {
       }
     } else {
       displayMessage("Enter a positive number");
-      changeColorH1("#F28CBD");
+      changeColorH1("#BC1A4B");
     }
   }
 });
 document.querySelector(".again").addEventListener("click", function () {
+  document.querySelector(".mystic-number").textContent = "?";
   attemptNumber = 0;
   changeAttempt(attemptNumber++);
   displayMessage("Guess <br> the number!");
