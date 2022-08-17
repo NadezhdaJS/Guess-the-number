@@ -93,6 +93,7 @@ document.querySelector(".check").addEventListener("click", function () {
   }
 });
 document.querySelector(".again").addEventListener("click", function () {
+  mysticNumber = Math.trunc(Math.random() * 20 + 1);
   document.querySelector(".mystic-number").textContent = "?";
   attemptNumber = 0;
   changeAttempt(attemptNumber++);
