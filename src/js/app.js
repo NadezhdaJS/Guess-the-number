@@ -55,7 +55,7 @@ document.querySelector(".check").addEventListener("click", function () {
   const yourNumber = Number(document.querySelector(".your-number").value);
   if (!yourNumber) {
     displayMessage("Not a number!");
-    changeColorH1("#BC1A4B");
+    changeColorH1("#F28CBD");
   } else if (yourNumber === mysticNumber) {
     displayMessage("you won!");
     changeColorH1("#fff");
@@ -77,7 +77,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (yourNumber !== mysticNumber) {
     if (yourNumber >= 0) {
       changeAttempt(attemptNumber++);
-      changeColorH1("#BC1A4B");
+      changeColorH1("#F28CBD");
       changeMarginNumber("80px");
       changePaddingH1("80px");
       if (yourNumber > mysticNumber) {
@@ -87,7 +87,7 @@ document.querySelector(".check").addEventListener("click", function () {
       }
     } else {
       displayMessage("Enter a positive number");
-      changeColorH1("#BC1A4B");
+      changeColorH1("#F28CBD");
     }
   }
 });
