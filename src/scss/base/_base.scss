@@ -47,11 +47,19 @@ html {
   box-shadow: 10px 10px 10px rgba(0, 64, 244, 0.49);
   border-radius: 20px;
   border: none;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  max-height: 52px;
 }
 
 h1 {
-  padding-top: 54px;
+  padding-top: 46px;
   text-align: center;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.05em;
 }
 
 .mystic-number {
@@ -66,7 +74,10 @@ h1 {
   padding: 16px 32px;
   gap: 10px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 46px;
+  font-size: 200px;
+  line-height: 260px;
+  color: #6786fb;
 }
 
 .your-number {
@@ -79,9 +90,17 @@ h1 {
   height: 81px;
   display: flex;
   margin: 42px auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 70px;
+  color: #dd5d8a;
 }
 
 .check {
+  font-size: 38px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
   margin-top: 42px;
   margin: auto;
   background: linear-gradient(115.24deg, #f6d3ba 16.02%, #fcdcb5 83.98%);
@@ -90,11 +109,23 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 27px 141px;
+  padding: 21px 124px;
   gap: 10px;
   border: 0;
+  font-weight: 700;
+  max-height: 76px;
+  max-width: 380px;
 }
 
 .attempt {
   margin-top: 36px;
+}
+
+.attempt-number {
+}
+
+.btn {
+  font-family: "KoHo";
+  text-transform: uppercase;
+  color: #ffffff;
 }
